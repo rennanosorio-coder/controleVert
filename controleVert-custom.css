@@ -1,0 +1,58 @@
+.controller.xbox {
+  background: none !important;
+  opacity: 1 !important;
+  margin-top: 150px !important;
+  margin-left: 195px !important;
+}
+
+.xbox .bumpers,
+.xbox .quadrant,
+.xbox .arrows,
+.xbox .abxy,
+.xbox .dpad,
+.xbox .stick.right {
+  display: none !important;
+}
+
+.xbox .triggers,
+.xbox .sticks {
+  top: 0 !important;
+  left: 0 !important;
+  width: auto !important;
+  height: auto !important;
+}
+
+.xbox .trigger.left {
+  position: absolute !important;
+  top: 0 !important;
+  left: 0 !important;
+  width: 88px !important;
+  height: 121px !important;
+  background: url("https://res.cloudinary.com/cg2yqbim/image/upload/v1787881985/left_trigger.png") !important;
+  background-position: 0 0 !important;
+}
+
+.xbox .trigger.right {
+  position: absolute !important;
+  top: 0 !important;
+  left: 233px !important;
+  width: 88px !important;
+  height: 121px !important;
+  transform: none !important;
+  background: url("https://res.cloudinary.com/cg2yqbim/image/upload/v1787882530/right_trigger.png") !important;
+  background-position: 0 0 !important;
+}
+
+.xbox .stick.left {
+  position: absolute !important;
+  top: 19px !important;
+  left: 118px !important;
+  width: 83px !important;
+  height: 83px !important;
+  background-image: url("https://res.cloudinary.com/cg2yqbim/image/upload/v1787881537/analogico.png") !important;
+  background-position: -85px 0 !important;
+}
+
+.xbox .stick.left.pressed {
+  background-position: 0 0 !important;
+}
